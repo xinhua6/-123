@@ -1,0 +1,20 @@
+共同点：
+1.下载的包都是来自npm仓库
+
+
+
+不同点：
+1.package.json中模块的版本号只是个范围（不严格版本限制），使用npm下载的时候不同设备下载的packages的版本不同，使用yarn的时候yarn会创建yarn.lock文件，确定版本相同。
+npm解决方法：先执行npm shrinkwrap，再执行npm install；或者使用 npm install --save-exat告诉npm 安装确切版本
+
+2.yarn install比npm install下载时间短，可以使用npm ci
+
+3.pnpm 替换npm
+
+
+
+
+
+参考：
+1.使用npm shrink 来管理项目依赖 https://tech.meituan.com/2015/10/23/npm-shrinkwrap.html
+2.npm ci的注意事项 https://blog.csdn.net/csdn_yudong/article/details/84929546

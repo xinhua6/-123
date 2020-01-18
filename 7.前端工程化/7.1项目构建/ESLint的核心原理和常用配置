@@ -1,0 +1,79 @@
+Eslint的检测原理
+
+
+一、配置方式：
+.eslintrc.* 配置在根目录上，则作用于整个项目，放在子文件目录里面，只作用于该文件内，检查忽略根目录的配置，采取就近配置原则
+ESLint采用逐级向上查找的方式查找.eslintrc.*文件，当找到带有"root": true配置项的.eslintrc.*文件时，将会停止向上查找。
+
+二、配置规则：
+参考官网规则文档 http://eslint.cn/docs/user-guide/configuring
+例：
+module.exports = {
+  root: true,
+  env: {
+   // 启用node环境
+    node: true
+  },
+  'extends': [
+    //  引入其他规则，跟rules结合去定义个别规则，从而覆盖掉“extends”中引入的规则
+    'plugin:vue/essential',
+    '@vue/standard'
+  ],
+  rules: {
+    // 0或者off表示规则关闭，出错也被忽略；1或者warn表示如果出错会给出警告(不会导致程序退出)；
+    // 2或者error表示如果出错会报出错误(会导致程序退出，退出码是1)
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'vue/script-indent': ['error', 2, {'baseIndent': 1}]
+  },
+  parserOptions: {
+    parser: 'babel-eslint' // parser指定解析器，默认的为espree。babel-eslint是一个Babel parser的包装器，这个包装器使得 Babel parser 可以和 ESLint 协调工作
+  },
+  // 要为特定类型的文件指定处理器，请使用 overrides 键和 processor 键的组合
+  overrides: [
+    { // 对于vue文件中规则关闭
+      'files': ['*.vue'],
+      'rules': {
+        'indent': 'off'
+      }
+    },
+    {
+      files: [
+        '**/__tests__/*.{j,t}s?(x)',
+        '**/tests/unit/**/*.spec.{j,t}s?(x)'
+      ],
+      // 启用jest环境
+      env: {
+        jest: true
+      }
+    }
+  ]
+}
+
+
+三、配置忽略检查
+配置文件为.eslintignore
+注意：不管你有没有在.eslintignore中进行配置，eslint都会默认忽略掉对/node_modules/** 的检查。
+也可以在package.json文件的 eslintIgnore 字段进行配置。
+
+
+四、检查原理
+解析：将未经处理的代码解析成更为抽象的表达式，通常为抽象语法树，即 AST。
+转换：通过修改解析后的代码表达式，将其转换为符合预期的新格式。
+代码生成：将转换后的表达式生成为新的目标代码。
+
+使用AST explorer 查看解析后的AST（https://astexplorer.net/）
+
+五、自定义rule
+举例：1.对未调用的函数进行warning 2.对未被使用过的data进行warning
+
+六 plugin和setting
+
+
+
+
+参考
+1.知乎https://zhuanlan.zhihu.com/p/53680918
+
+
+

@@ -1,0 +1,22 @@
+例
+"scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "debugger": "node --inspect ./node_modules/_@vue_cli-service@4.0.5@@vue/cli-service/bin/vue-cli-service.js serve --open --inspect",
+    "dev": "vue-cli-service serve",
+    "test:unit": "vue-cli-service test:unit",
+    "theme": "node skin.config.js"
+  },
+
+  npm run serve === node vue-cli-serve --open
+  npm run build === node vue-cli-service build
+此次类推
+
+
+
+
+
+
+参考
+1. 阮一峰 npm scripts使用指南  https://www.ruanyifeng.com/blog/2016/10/npm_scripts.html
