@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aeb458d-970e-4e6e-a9da-6ee446001ed7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.4svn常用命令" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/btn--按钮/wp-btns.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/btn--按钮/按钮的封装" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/file--上传文件/data-detail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/file--上传文件/文件的封装" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/form--表单/表单的封装" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/前言" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目归类与总结/番禺建管项目/在线电子文档/在线电子文档编辑与导入导出" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目归类与总结/番禺建管项目/皮肤/default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目归类与总结/番禺建管项目/皮肤/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目归类与总结/番禺建管项目/皮肤/更换皮肤" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.2熟练使用常规git命令" beforeDir="false" afterPath="$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.2熟练使用常规git命令" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.3线上分支回滚错误等问题解决" beforeDir="false" afterPath="$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.3线上分支回滚错误等问题解决" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.1理解git的核心原理、工作流程、和SVN的区别" beforeDir="false" afterPath="$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.1理解git的核心原理、工作流程、和SVN的区别" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,43 +28,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/7.前端工程化/7.2nginx/7.1正向代理和反向代理的特点和实例">
+      <file leaf-file-name="在线电子文档编辑与导入导出" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/在线电子文档/在线电子文档编辑与导入导出">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+            <state relative-caret-position="-299">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.1理解git的核心原理、工作流程、和SVN的区别">
+      <file leaf-file-name="表单的封装" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/form--表单/表单的封装">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.2熟练使用常规git命令">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
+            <state relative-caret-position="108">
               <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.3线上分支回滚错误等问题解决">
+      <file leaf-file-name="文件的封装" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/file--上传文件/文件的封装">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="403">
+              <caret line="127" column="62" lean-forward="true" selection-start-line="127" selection-start-column="62" selection-end-line="127" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data-detail.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/file--上传文件/data-detail.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="236" column="17" lean-forward="true" selection-start-line="236" selection-start-column="17" selection-end-line="236" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="前言" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/前言">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="按钮的封装" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/btn--按钮/按钮的封装">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="592">
+              <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wp-btns.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/btn--按钮/wp-btns.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+              <folding>
+                <element signature="n#template#0;n#!!top" />
+                <element signature="e#358#406#0" expanded="true" />
+                <element signature="e#470#569#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="更换皮肤" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/皮肤/更换皮肤">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3618">
+              <caret line="134" column="52" selection-start-line="134" selection-start-column="52" selection-end-line="134" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>THEME_HANGE</find>
+      <find>defaultColor</find>
+      <find>mix</find>
+      <find>replaceColors</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,12 +122,31 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/3.计算机基础/3.1编译原理/2.base64编码原理" />
-        <option value="$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.1理解git的核心原理、工作流程、和SVN的区别" />
         <option value="$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.3线上分支回滚错误等问题解决" />
         <option value="$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.2熟练使用常规git命令" />
         <option value="$PROJECT_DIR$/7.前端工程化/7.2nginx/7.1正向代理和反向代理的特点和实例" />
+        <option value="$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.1理解git的核心原理、工作流程、和SVN的区别" />
+        <option value="$PROJECT_DIR$/项目归类与总结/番禺建管项目/更换皮肤" />
+        <option value="$PROJECT_DIR$/项目归类与总结/番禺建管项目/皮肤/theme.js" />
+        <option value="$PROJECT_DIR$/项目归类与总结/番禺建管项目/皮肤/更换皮肤" />
+        <option value="$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/btn--按钮/按钮的封装" />
+        <option value="$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/btn--按钮/wp-btns.vue" />
+        <option value="$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/form--表单/表单的封装" />
+        <option value="$PROJECT_DIR$/项目归类与总结/番禺建管项目/在线电子文档/在线电子文档编辑与导入导出" />
+        <option value="$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/前言" />
+        <option value="$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/file--上传文件/data-detail.vue" />
+        <option value="$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/file--上传文件/文件的封装" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -80,10 +159,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="231" />
+    <option name="y" value="10" />
+    <option name="width" value="983" />
+    <option name="height" value="521" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -93,7 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,44 +182,64 @@
             <path>
               <item name="Induction-of-front-end-knowledge" type="b2602c69:ProjectViewProjectNode" />
               <item name="Induction-of-front-end-knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="3.计算机基础" type="462c0819:PsiDirectoryNode" />
+              <item name="项目归类与总结" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Induction-of-front-end-knowledge" type="b2602c69:ProjectViewProjectNode" />
               <item name="Induction-of-front-end-knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="3.计算机基础" type="462c0819:PsiDirectoryNode" />
-              <item name="3.1编译原理" type="462c0819:PsiDirectoryNode" />
+              <item name="项目归类与总结" type="462c0819:PsiDirectoryNode" />
+              <item name="番禺建管项目" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Induction-of-front-end-knowledge" type="b2602c69:ProjectViewProjectNode" />
               <item name="Induction-of-front-end-knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="7.前端工程化" type="462c0819:PsiDirectoryNode" />
+              <item name="项目归类与总结" type="462c0819:PsiDirectoryNode" />
+              <item name="番禺建管项目" type="462c0819:PsiDirectoryNode" />
+              <item name="element-ui公用组件的重写" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Induction-of-front-end-knowledge" type="b2602c69:ProjectViewProjectNode" />
               <item name="Induction-of-front-end-knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="7.前端工程化" type="462c0819:PsiDirectoryNode" />
-              <item name="7.2nginx" type="462c0819:PsiDirectoryNode" />
+              <item name="项目归类与总结" type="462c0819:PsiDirectoryNode" />
+              <item name="番禺建管项目" type="462c0819:PsiDirectoryNode" />
+              <item name="element-ui公用组件的重写" type="462c0819:PsiDirectoryNode" />
+              <item name="file--上传文件" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Induction-of-front-end-knowledge" type="b2602c69:ProjectViewProjectNode" />
               <item name="Induction-of-front-end-knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="7.前端工程化" type="462c0819:PsiDirectoryNode" />
-              <item name="7.4版本控制" type="462c0819:PsiDirectoryNode" />
+              <item name="项目归类与总结" type="462c0819:PsiDirectoryNode" />
+              <item name="番禺建管项目" type="462c0819:PsiDirectoryNode" />
+              <item name="element-ui公用组件的重写" type="462c0819:PsiDirectoryNode" />
+              <item name="form--表单" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/weepal/番禺交投/HMS/hmsweb" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\个人测试\Induction-of-front-end-knowledge\项目归类与总结\番禺建管项目\在线电子文档\imgs" />
+      <recent name="E:\个人测试\Induction-of-front-end-knowledge\项目归类与总结\番禺建管项目\element-ui公用组件的重写\file--上传文件\imgs" />
+      <recent name="E:\个人测试\Induction-of-front-end-knowledge\项目归类与总结\番禺建管项目\element-ui公用组件的重写\file--上传文件" />
+      <recent name="E:\个人测试\Induction-of-front-end-knowledge\项目归类与总结\番禺建管项目\皮肤" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\个人测试\Induction-of-front-end-knowledge\项目归类与总结\番禺建管项目\element-ui公用组件的重写\file--上传文件" />
+      <recent name="E:\个人测试\Induction-of-front-end-knowledge\项目归类与总结\番禺建管项目\element-ui公用组件的重写\btn--按钮" />
+      <recent name="E:\个人测试\Induction-of-front-end-knowledge\项目归类与总结\番禺建管项目\皮肤" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -168,39 +266,148 @@
       <workItem from="1579326597987" duration="9718000" />
       <workItem from="1579423440583" duration="2504000" />
       <workItem from="1579479174460" duration="10766000" />
+      <workItem from="1588132340430" duration="11433000" />
+      <workItem from="1588151590851" duration="1279000" />
+      <workItem from="1588205467117" duration="17115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22988000" />
+    <option name="totallyTimeSpent" value="52815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18973215" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20535715" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/在线电子文档/在线电子文档编辑与导入导出">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/前言">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/btn--按钮/wp-btns.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2376">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="n#template#0;n#!!top" />
+            <element signature="e#358#406#0" expanded="true" />
+            <element signature="e#470#569#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/皮肤/更换皮肤">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3618">
+          <caret line="134" column="52" selection-start-line="134" selection-start-column="52" selection-end-line="134" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/btn--按钮/按钮的封装">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/在线电子文档/在线电子文档编辑与导入导出">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/前言">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/btn--按钮/按钮的封装">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1647">
+          <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/皮肤/更换皮肤">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3618">
+          <caret line="134" column="52" selection-start-line="134" selection-start-column="52" selection-end-line="134" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/btn--按钮/wp-btns.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.前端工程化/7.2nginx/7.1正向代理和反向代理的特点和实例">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.1理解git的核心原理、工作流程、和SVN的区别">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.2熟练使用常规git命令">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.3线上分支回滚错误等问题解决">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/3.计算机基础/3.1编译原理/2.base64编码原理">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -211,31 +418,118 @@
     <entry file="file://$PROJECT_DIR$/3.计算机基础/3.1编译原理/1.正则表达式的匹配原理和性能优化">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.3线上分支回滚错误等问题解决">
+    <entry file="file://$PROJECT_DIR$/7.前端工程化/7.2nginx/7.1正向代理和反向代理的特点和实例">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.2熟练使用常规git命令">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.1理解git的核心原理、工作流程、和SVN的区别">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+        <state relative-caret-position="525">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7.前端工程化/7.2nginx/7.1正向代理和反向代理的特点和实例">
+    <entry file="file://$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.3线上分支回滚错误等问题解决">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+        <state relative-caret-position="93">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.2熟练使用常规git命令">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.前端工程化/7.4版本控制/7.4.4svn常用命令">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/皮肤/theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3919">
+          <caret line="218" column="6" lean-forward="true" selection-start-line="218" selection-start-column="6" selection-end-line="218" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/皮肤/default.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/皮肤/更换皮肤">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3618">
+          <caret line="134" column="52" selection-start-line="134" selection-start-column="52" selection-end-line="134" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/在线电子文档/在线电子文档编辑与导入导出">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/btn--按钮/wp-btns.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="n#template#0;n#!!top" />
+            <element signature="e#358#406#0" expanded="true" />
+            <element signature="e#470#569#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/btn--按钮/按钮的封装">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/前言">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/在线电子文档/imgs/在线电子表格.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/file--上传文件/imgs/在线文档上传.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/file--上传文件/data-detail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="236" column="17" lean-forward="true" selection-start-line="236" selection-start-column="17" selection-end-line="236" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/file--上传文件/文件的封装">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="127" column="62" lean-forward="true" selection-start-line="127" selection-start-column="62" selection-end-line="127" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/form--表单/表单的封装">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>

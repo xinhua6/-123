@@ -1,0 +1,25 @@
+本项目在element组件的基础上进行二次封装，以便更好的开发
+
+各组件封装统一写在 global文件夹里
+
+在global/index.js文件中声明各封装组件
+
+在main.js中去引入global文件
+
+文件结构
+
+main.js
+    global/index.js
+          WpForm
+          WpPager
+          WpBtnToolbar
+          WpWindow
+          WpTable
+          WpElTable
+          WpAttachFile
+          WpLibraryFile
+          WpSvgIcon
+
+
+
+

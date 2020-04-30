@@ -1,0 +1,143 @@
+参考文章： https://www.dazhuanlan.com/2020/02/22/5e50e5a21869f/
+
+一.文件结构  在layout/hms文件中
+    App.vue
+      theme/theme.js
+      layout/index.vue
+         sys-head.vue
+            theme/theme-select.vue
+
+
+二.编码思路
+参考文章中的第三种方案
+当切换皮肤时，直接遍历查询<head>标签中的所有样式引入，将里面的颜色使用正则replace方法替换掉
+
+
+
+1.配置基础颜色
+config/index.js中配置好颜色默认值
+```
+export const THEME_CONFIG = {
+  defaultColor: '#44BB35',
+  fontSize: 10,
+  themeList: [
+    {
+      name: '绿色',
+      rules: [],
+      value: '#44BB35'
+    },
+    {
+      name: '橙色',
+      rules: [],
+      value: '#F77239'
+    },
+    {
+      name: '棕色',
+      rules: [],
+      value: '#B27757'
+    },
+    {
+      name: '蓝色',
+      rules: [],
+      value: '#337EFF'
+    },
+    {
+      name: '红色',
+      rules: [],
+      value: '#D14141'
+    },
+    {
+      name: '紫色',
+      rules: [],
+      value: '#8E41D1'
+    },
+    {
+      name: '青蓝色',
+      rules: [],
+      value: '#00BFC4'
+    },
+    {
+      name: '黑色',
+      rules: [],
+      value: '#3C3C3C'
+    }
+
+  ]
+}
+````
+
+
+2.引入模块，在sys-head.vue中去触发展开theme模块
+在app.vue中引入配置，且去调用
+```
+<script>
+  import { THEME_CONFIG } from './config'
+  import themeMixin from
+  'src/common/components/theme/theme'
+  export default {
+    mixins: [themeMixin(THEME_CONFIG)],
+````
+
+
+总项目layout/hms/index.vue
+```
+<template>
+    <div class="c-h100">
+        <sys-header :title="sysData.sysZhName"
+                    :store="sysData.sysName"
+                    :menus="sysData.menus"
+                    :currentTableId="currentTableId"
+                    class="header">
+        </sys-header>
+        <div class="main">
+            <wp-keep-alive>
+                <router-view></router-view>
+            </wp-keep-alive>
+        </div>
+        <task v-show="taskShow" class="task-list"></task>
+        <theme v-if="themeShow" class="task-list"></theme>
+        <sys-list></sys-list>
+    </div>
+</template>
+
+...
+ computed: {
+      themeShow () {
+        return this.$store.state.theme.themeShow
+      }
+    },
+
+```
+
+
+头部sys-head.vue中
+```
+ <div @click="showTheme" class="c-cp">
+     <img src="~./img/theme.png"/>
+ </div>
+
+ ....
+showTheme () {
+        this.$store.commit('theme/SET_THEME_SHOW', true)
+      },
+
+```
+
+3.theme.js思路详解
+
+3.1 vuex的动态注册registerModule
+```
+this.$store.registerModule('theme', createStoreModule(themConfig))
+
+```
+可以使用this.$store.unregisterModule('theme')销毁
+
+3.2监听'$store.state.theme.color'，调用changeTheme函数（重难点）
+
+3.3 最后将theme配置存储在本地session中
+
+
+
+
+
+

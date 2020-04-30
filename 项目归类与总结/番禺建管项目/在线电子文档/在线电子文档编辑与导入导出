@@ -1,0 +1,34 @@
+使用插件
+ 1. x-spreadsheet https://github.com/myliang/x-spreadsheet
+ 2. exceljs  https://github.com/exceljs/exceljs/blob/HEAD/README_zh.md
+
+ 类比x-spreadsheet的handsontable插件
+ https://handsontable.com/docs/6.2.2/tutorial-custom-plugin.html
+
+
+实现功能：
+    导入/出excel， excel在线文档编辑，
+    根据设置的关联项目导入数据
+    初始导入的时候自动关联行（第一行）
+
+
+文件结构   保存在supervision-report文件夹中
+    watch-detail.vue
+        select-data.vue
+        excel-action.js
+
+问题待改善
+    1.exceljs文件的导入与导出时存在问题的，导入后显示画面不完整。目前的解决方法是在导入文件的时候先将文件中的初始数据保存，
+    在进入编辑页面的时候从后台读取渲染。
+
+    2.导入文件的样式中存在部分缺失，比如说框线，居中设置等（插件问题）
+
+    3.无法富文本编辑，从后台中读取富文本的时候只能抽取作为普通文本读取
+
+
+推荐小白使用handsontable插件
+推荐原因：
+ 1.x-spreadsheet的文档并不完善，相比之下handsontable相对完善的提到了各种功能函数
+ 2.x-spreadsheet中无法在单个单元格中进行富文本编辑
+ 3.x-spreadsheet的内容结构相对复杂，最起码我在插入数据的时候处理是非常费时的。
+

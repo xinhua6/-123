@@ -1,0 +1,62 @@
+为什么按钮需要封装？？？
+
+    在整个项目中不同的人员的权限是不同的，那么这个按钮的是否可操作时由人员的权限决定的。如果仅仅是少量页面前端可以根据
+当前用户的信息（部门，公司）使用v-if，v-show，computed来判断按钮的显示问题，但是如果涉及到的是几十个甚至上百个页面的话，
+这个时候需要考虑由后台配置用户权限，前台根据后台返回来的信息决定是否显示相应的按钮。
+
+
+引用方式
+```
+      <wp-btns :buttons="buttons">
+        <template v-slot:import>
+          <el-upload>
+            <el-button type="primary" size="mini" style="margin: 0 10px">
+              导入
+            </el-button>
+          </el-upload>
+        </template>
+      </wp-btns>
+     ...
+     computed: {
+           buttons () {
+             return [
+               {
+                 name: 'btnadd',
+                 label: '增加',
+                 click: this.add,
+                 size: 'mini'
+               },
+               {
+                 name: 'btndelete',
+                 label: '删除',
+                 click: this.delete,
+                 disabled: this.disable,
+                 size: 'mini'
+               },
+               {
+                 name: 'btnedit',
+                 label: '编辑',
+                 click: this.edit,
+                 disabled: this.disable
+               },
+               {
+                 label: '刷新',
+                 click: this.getData
+               },
+               {
+                 label: '下载模板',
+                 click: this.downLoad
+               },
+               {
+                 name: 'btnadd',
+                 slot: 'import',
+                 label: '导入'
+               },
+               {
+                 label: '导出',
+                 click: this.exportExcel
+               },
+             ]
+           },
+          }
+```

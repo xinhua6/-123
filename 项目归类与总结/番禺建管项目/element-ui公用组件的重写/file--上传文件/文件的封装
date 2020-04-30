@@ -1,0 +1,128 @@
+功能
+1.文件的上传，列表，下载与预览，删除
+2.本地与在线文件的选择
+3.拖拽上传
+4.附件上传提示词
+
+
+上传的限制：
+文件数量，文件类型，文件名检测
+
+文件结构
+attach-file.vue
+    file-action-mixin.js
+    upload.vue
+
+注意需要在main.js中禁止浏览器拖拽文件时打开文件的默认行为
+```
+    document.addEventListener('drop', function (e) {
+      e.preventDefault()
+    }, false)
+    document.addEventListener('dragover', function (e) {
+      e.preventDefault()
+    }, false)
+
+```
+
+引用方式
+1.只需本地上传通常用于表单上传中运用
+```
+            <!--附件-->
+            <template v-slot:wpAttach>
+              <wp-attach-file
+                :page="page"
+                :recordId="pageKid"
+                :disabled="isView"
+              >
+              </wp-attach-file>
+            </template>
+...
+      // 页面状态 view add edit sign
+      page: 'view',
+      // 页面唯一kid
+      pageKid: null,
+...
+    isView () {
+      return this.page === 'view' || this.page === 'sign'
+    }
+
+
+2.本地与在线上传 查看data-detail.vue
+注意在线上传时，在切换目录的时候，已选文件任然是保存的，即切换回原来的目录中已选文件还需显示已勾选状态
+
+此外，如果项目中需求是规定整个系统都需引用在线上传功能的，那么请求目录和请求对应节点的文件应该是写在整个store的
+文件夹里面的，如果只是部分模块使用，则只需写入相应的模块的store中即可
+
+
+
+3.excel文件的上传
+公用的attach-file是可以进行excel的上传的，但是由于需求与设计的要求，我建议还是直接引用el-upload进行编写。
+原因如下（如果遇上以上原因，可考虑直接使用el-upload，而不是公用上传组件）：
+    文件只需上传1个，即无需进行上传后列表展示
+    对excel文件内容规范有一定要求的，即后台接收到excel文件后需要读取内容，如果不符合规范的依然会返回报错。（这里我
+    后台人员虽然读取内容不符合规范，还是会返回200，但是返回来的response.success为false的，res.msg中是写明是不符合的，这个时候就需要我们前端做一下处理了）
+
+```
+          <el-upload
+                     ref="upload"
+                     :action="url"
+                     :show-file-list="false"
+                     :headers="headers"
+                     :auto-upload="true"
+                     :accept="'application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'"
+                     :multiple="false"
+                     :before-upload="importExcel"
+                     :on-error="error"
+                     :name="fileName"
+                     :on-success="success"
+          >
+            <el-button type="primary" size="mini" style="margin: 0 10px">
+              导入
+            </el-button>
+          </el-upload>
+
+.....
+        headers: {
+          Authorization: sessionStorage.getItem('token')
+        },
+        url: '',
+        fileName: 'excelFile'
+......
+
+        // 导入excel
+      importExcel(file) {
+        this.loading = true
+        // 判断格式内容
+        const types = file.name.split('.')[1]
+        const fileType = ['xlsx', 'xls'].some(item => item === types)
+        if (!fileType) {
+          this.$message({ type: 'error', message: `格式错误，请重新选择` })
+          this.loading = false
+          return false
+        }
+        return true
+      },
+
+      // 导入excel成功
+      success (response) {
+        if (!response.success) {
+          this.error(response.msg)
+        } else {
+          this.$message({ type: 'success', message: `导入成功` })
+          this.loading = false
+        }
+      },
+      // 导入excel失败
+      error (msg) {
+        let errormsg = msg ? msg : `导入失败，请重新导入`
+        this.$message({ type: 'error', message: errormsg })
+        this.loading = false
+      },
+```
+
+
+拓展，这里并没有实现文件的并行上传，以及大头文件的分块，断点续传，秒传功能
+如果需求上是上传大头文件可以使用vue-simple-uploader插件，或者尝试对el-upload进行封装，直接使用http-request方法
+
+使用vue-simple-uploader插件
+参考文章： https://www.cnblogs.com/xiahj/p/vue-simple-uploader.html
