@@ -1,4 +1,122 @@
+表单中主要包括新增编辑和查看详情状态，通过isView来改变表单的样式。
+文件格式：
+ form.vue
+    item.vue
 
+
+
+引用方式
+```
+        <wp-form
+          ref="form"
+          :items="formItems"
+          :data="formData"
+          :defaultConfig="defaultConfig"
+          :isView="isView">
+          <template slot="stateId">
+            <el-radio v-model="formData.isPass" label="1" v-if="formData.stateId !== -1">同意</el-radio>
+            <el-radio v-model="formData.isPass" label="0" v-if="formData.stateId !== -1">退回</el-radio>
+            <el-input
+              v-show="formData.stateId === -1 || formData.isPass == 0"
+              type="textarea"
+              :rows="5"
+              v-model="formData.lastReView">
+            </el-input>
+          </template>
+        </wp-form>
+...
+        formData: {
+        },
+        defaultConfig: {
+          itemWidth: '46%',
+          labelWidth: '6.5em'
+        },
+...
+        isView () {
+              return this.page === 'view' || this.page === 'sign'
+        }
+       formItems () {
+        return [
+          {
+              name: 'curPayCost',
+              width: '100%',
+              type: 'el-input',
+              required: true,
+              vtype: V_TYPES.money,
+              label: '本次付款金额（元）',
+              on: {
+                change: this.inputData
+              },
+              props: {
+                disabled: true
+              }
+          },
+          {
+            name: 'methodId',
+            type: 'wp-const-select',
+            label: '招标方式',
+            required: true,
+            props: {
+              options: TENDERLIST
+            },
+            on: {
+              change: (val) => {
+                this.formData.methodName = val.label
+              }
+            }
+          },
+          {
+            name: 'planNetDate',
+            label: '计划挂网时间',
+            type: 'el-date-picker',
+            required: true,
+            props: {
+              'value-format': 'yyyy-MM-dd',
+              'format': 'yyyy 年 MM 月 dd 日'
+            }
+          },
+          {
+            name: 'content',
+            label: '招标内容',
+            type: 'el-input',
+            required: true,
+            props: {
+              type: 'textarea',
+              autosize: { minRows: 5, maxRows: 5 }
+            },
+            width: '100%'
+          },
+          {
+            name: 'remark',
+            label: '备注',
+            type: 'el-input',
+            props: {
+              type: 'textarea',
+              autosize: { minRows: 5, maxRows: 5 }
+            },
+            width: '100%'
+          },
+          {
+            name: 'stateId',
+            label: '审核意见',
+            type: 'custom',
+            required: true,
+            hidden: this.page === 'add',
+            width: '100%'
+          },
+          {
+            name: 'leaderName1',
+            label: '总工室经办人',
+            type: 'el-select',
+            options: [],
+            on: {
+              change: (val) => {
+                this.formatLeader(0, val, 33387, '总工室')
+              }
+            }
+          },
+        ]
+      },
 
 
 
