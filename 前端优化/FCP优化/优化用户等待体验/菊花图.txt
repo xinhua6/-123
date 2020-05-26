@@ -1,0 +1,3 @@
+使用element-ui的v-loading指令
+
+或者使用xdh-loading

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aeb458d-970e-4e6e-a9da-6ee446001ed7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/项目归类与总结/番禺建管项目/横道图/横道图" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端优化/FCP优化/优化用户等待体验/加载进度条.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端优化/FCP优化/优化用户等待体验/菊花图.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端优化/FCP优化/优化用户等待体验/骨架屏/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/学习博客/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/项目归类与总结/番禺建管项目/前端埋点/readme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/form--表单/表单的封装" beforeDir="false" afterPath="$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/form--表单/表单的封装" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,20 +21,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="在线电子文档编辑与导入导出" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/在线电子文档/在线电子文档编辑与导入导出">
+      <file leaf-file-name="表单的封装" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/form--表单/表单的封装">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="297">
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="表单的封装" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/form--表单/表单的封装">
+      <file leaf-file-name="readme" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/前端埋点/readme">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="125" column="22" lean-forward="true" selection-start-line="125" selection-start-column="22" selection-end-line="125" selection-end-column="22" />
+            <state relative-caret-position="297">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/前端优化/FCP优化/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="菊花图.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/前端优化/FCP优化/优化用户等待体验/菊花图.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="加载进度条.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/前端优化/FCP优化/优化用户等待体验/加载进度条.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/前端优化/FCP优化/优化用户等待体验/骨架屏/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/学习博客/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -50,33 +98,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3429">
               <caret line="127" column="62" selection-start-line="127" selection-start-column="62" selection-end-line="127" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data-detail.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/file--上传文件/data-detail.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6264">
-              <caret line="236" column="17" selection-start-line="236" selection-start-column="17" selection-end-line="236" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="前言" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/前言">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="按钮的封装" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/btn--按钮/按钮的封装">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1269">
-              <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -127,6 +148,12 @@
         <option value="$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/file--上传文件/文件的封装" />
         <option value="$PROJECT_DIR$/项目归类与总结/番禺建管项目/横道图/横道图" />
         <option value="$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/form--表单/表单的封装" />
+        <option value="$PROJECT_DIR$/项目归类与总结/番禺建管项目/前端埋点/readme" />
+        <option value="$PROJECT_DIR$/前端优化/FCP优化/readme.txt" />
+        <option value="$PROJECT_DIR$/学习博客/readme.txt" />
+        <option value="$PROJECT_DIR$/前端优化/FCP优化/优化用户等待体验/骨架屏/readme.txt" />
+        <option value="$PROJECT_DIR$/前端优化/FCP优化/优化用户等待体验/菊花图.txt" />
+        <option value="$PROJECT_DIR$/前端优化/FCP优化/优化用户等待体验/加载进度条.txt" />
       </list>
     </option>
   </component>
@@ -149,8 +176,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="165" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="59" />
     <option name="width" value="1208" />
     <option name="height" value="735" />
   </component>
@@ -162,7 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,62 +199,26 @@
             <path>
               <item name="Induction-of-front-end-knowledge" type="b2602c69:ProjectViewProjectNode" />
               <item name="Induction-of-front-end-knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="项目归类与总结" type="462c0819:PsiDirectoryNode" />
+              <item name="前端优化" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Induction-of-front-end-knowledge" type="b2602c69:ProjectViewProjectNode" />
               <item name="Induction-of-front-end-knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="项目归类与总结" type="462c0819:PsiDirectoryNode" />
-              <item name="番禺建管项目" type="462c0819:PsiDirectoryNode" />
+              <item name="前端优化" type="462c0819:PsiDirectoryNode" />
+              <item name="FCP优化" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Induction-of-front-end-knowledge" type="b2602c69:ProjectViewProjectNode" />
               <item name="Induction-of-front-end-knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="项目归类与总结" type="462c0819:PsiDirectoryNode" />
-              <item name="番禺建管项目" type="462c0819:PsiDirectoryNode" />
-              <item name="element-ui公用组件的重写" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Induction-of-front-end-knowledge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Induction-of-front-end-knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="项目归类与总结" type="462c0819:PsiDirectoryNode" />
-              <item name="番禺建管项目" type="462c0819:PsiDirectoryNode" />
-              <item name="element-ui公用组件的重写" type="462c0819:PsiDirectoryNode" />
-              <item name="btn--按钮" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Induction-of-front-end-knowledge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Induction-of-front-end-knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="项目归类与总结" type="462c0819:PsiDirectoryNode" />
-              <item name="番禺建管项目" type="462c0819:PsiDirectoryNode" />
-              <item name="element-ui公用组件的重写" type="462c0819:PsiDirectoryNode" />
-              <item name="form--表单" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Induction-of-front-end-knowledge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Induction-of-front-end-knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="项目归类与总结" type="462c0819:PsiDirectoryNode" />
-              <item name="番禺建管项目" type="462c0819:PsiDirectoryNode" />
-              <item name="在线电子文档" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Induction-of-front-end-knowledge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Induction-of-front-end-knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="项目归类与总结" type="462c0819:PsiDirectoryNode" />
-              <item name="番禺建管项目" type="462c0819:PsiDirectoryNode" />
-              <item name="横道图" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Induction-of-front-end-knowledge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Induction-of-front-end-knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="项目归类与总结" type="462c0819:PsiDirectoryNode" />
-              <item name="番禺建管项目" type="462c0819:PsiDirectoryNode" />
-              <item name="皮肤" type="462c0819:PsiDirectoryNode" />
+              <item name="前端优化" type="462c0819:PsiDirectoryNode" />
+              <item name="FCP优化" type="462c0819:PsiDirectoryNode" />
+              <item name="优化用户等待体验" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,17 +273,22 @@
       <workItem from="1588562321865" duration="4475000" />
       <workItem from="1588645722891" duration="1546000" />
       <workItem from="1589006790581" duration="1984000" />
+      <workItem from="1589158190245" duration="2220000" />
+      <workItem from="1589242049010" duration="599000" />
+      <workItem from="1589328729042" duration="30000" />
+      <workItem from="1589361689693" duration="747000" />
+      <workItem from="1590453971446" duration="8641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60820000" />
+    <option name="totallyTimeSpent" value="73057000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="165" y="0" width="1208" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15982907" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18675596" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -319,67 +314,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/在线电子文档/在线电子文档编辑与导入导出">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/file--上传文件/文件的封装">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3429">
-          <caret line="127" column="62" selection-start-line="127" selection-start-column="62" selection-end-line="127" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/file--上传文件/data-detail.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6264">
-          <caret line="236" column="17" lean-forward="true" selection-start-line="236" selection-start-column="17" selection-end-line="236" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/前言">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/btn--按钮/按钮的封装">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/btn--按钮/wp-btns.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="n#template#0;n#!!top" />
-            <element signature="e#358#406#0" expanded="true" />
-            <element signature="e#470#569#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/皮肤/更换皮肤">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3618">
-          <caret line="134" column="52" selection-start-line="134" selection-start-column="52" selection-end-line="134" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/form--表单/表单的封装">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1593">
-          <caret line="59" column="33" lean-forward="true" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/在线电子文档/在线电子文档编辑与导入导出">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -671,8 +605,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/element-ui公用组件的重写/form--表单/表单的封装">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="125" column="22" lean-forward="true" selection-start-line="125" selection-start-column="22" selection-end-line="125" selection-end-column="22" />
+        <state relative-caret-position="297">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/前端埋点/read" />
+    <entry file="file://$PROJECT_DIR$/前端优化/FCP优化/readme">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/项目归类与总结/番禺建管项目/前端埋点/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/学习博客/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端优化/FCP优化/优化用户等待体验/骨架屏/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端优化/FCP优化/优化用户等待体验/加载进度条.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端优化/FCP优化/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端优化/FCP优化/优化用户等待体验/菊花图.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>

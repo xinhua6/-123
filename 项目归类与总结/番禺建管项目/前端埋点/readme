@@ -1,0 +1,19 @@
+前端埋点
+
+1.为什么要埋点？
+    收集用户操作事件，页面停留事件，有利于优化设计，还有通过分析数据找到合理位置植入广告
+    收集用户的报错信息，bug修复
+
+
+
+2.前端埋点技巧
+
+
+
+
+
+
+
+参考
+1.https://cnodejs.org/topic/5e0a0edb0696c446bf650dec
+2.https://cloud.tencent.com/developer/article/1550077

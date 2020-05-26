@@ -1,0 +1,2 @@
+进度条使用  nprogress插件
+https://juejin.im/post/5b31e07ef265da599c56165a
